@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<manifest>
+<!-- open source git -->
+<remote name="openembedded" fetch="git://github.com/openembedded/" />
+<remote name="github" fetch="https://github.com/" />
+<remote name="yocto" fetch="git://git.yoctoproject.org" />
+<!-- open source code -->
+<project name="openembedded-core" remote="openembedded"
+path="bstos/openembedded-core"
+revision="952bfcc3f4b9ee5ba584da0f991f95e80654355a" />
+<project name="bitbake" remote="openembedded"
+path="bstos/openembedded-core/bitbake"
+revision="18d4a31fdcec1f0e5d2199d6142f0ce833fca1a7" />
+<project name="meta-openembedded" remote="openembedded"
+path="bstos/meta-openembedded"
+revision="8d5dcd6522e9d15e68637b6d7dda0401f9bb91d0" />
+<project name="meta-qt5/meta-qt5" remote="github" path="bstos/metaqt5" revision="warrior" />
+</manifest>
